@@ -56,7 +56,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+The project is a multi-page HTML project that uses HTML and CSS to highlight various hero parts and card styles.
 
 Guiding Question:
 - What is the project
