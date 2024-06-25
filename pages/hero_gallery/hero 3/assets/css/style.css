@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/ebfd6824-ddb7-448d-b715-522c9162b561-1676679775620.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 20px 0;
+    & img{
+        width: 100px;
+        transition: 3s;
+        &:hover{
+            transform: rotateY(720deg);
+        }
+    }
+    & a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        margin: 0 10px;
+        font-weight: 1000;
+        text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+        transition: 0.5s;
+        border: 50% ;
+        &:hover{
+            color: red;
+            text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+        }
+        &.active{
+            color: red;
+            text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+        }
+    }
+}
+section.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.5rem;
+    & div.hero{
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 1rem;
+        margin: 1rem;
+        & h2{
+            font-size: 2rem;
+            font-weight: 1000;
+            text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+        }
+        & img.Luffy{
+            height: 15rem;
+             &:hover{
+                transition: 3.4s ease-in-out;
+                transform: scale(2);
+             }
+        }
+    }
+    & div.hero-two{
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 1rem;
+        margin: 1rem;
+        & h2{
+            font-size: 2rem;
+            font-weight: 1000;
+            text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+        }
+        & img.kaido{
+            height: 15rem;
+            &:hover{
+                transition: 3.4s ease-in-out;
+                transform: scale(2);
+        }
+    }
+}
+}
