@@ -12,14 +12,14 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This folder contains the Hands on 2 work.
+  The purpose of this repository is to show different designs of hero and card through HTML and CSS.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Hands-On-2)
+![](https://visit-counter.vercel.app/counter.png?page=JohnbrylleCol2004/WD-Hands-On-2)
 
 ---
 
@@ -112,4 +112,14 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| HTML Tutorial | HTML Tutorial of the basics | https://www.w3schools.com/html/ |
+|CSS Tutorial|CSS Tutorial of the basics|https://www.w3schools.com/css/|
+|CSS Tutorial|CSS Tutorial of the basics|https://www.w3schools.com/css/|
+|How to make simple card hover effect in 2022. Create stunning card hover effects with ease!|Use as a reference for a design in Card Gallery Section|https://www.youtube.com/watch?v=3RvQJX1_fKQ|
+|Animated Card Hover Effect|Use as a reference for a design in Card Gallery Section|https://www.youtube.com/watch?v=t5zFfDdvApE|
+|Responsive Product Cards design with HTML and CSS|Use as a reference for a design in Card Gallery Section|https://www.youtube.com/watch?v=kRs3aTi3pzU&t=435s|
+|Kaiju No. 8 Live Wallpaper|This video is used for the background in the Hero 5 section|https://www.artstation.com/artwork/18yKvK|
+|Gojo Satoru Infinite Sorcery Live Wallpaper|This video is used for the background of the Hero Gallery Page|https://motionbgs.com/gojo-satoru-infinite-sorcery|
+|Arrows Lights abstract mystical free stock video|This video is used for the background of the Landing Page|https://pixabay.com/videos/arrows-lights-abstract-mystical-23778/|
+
+

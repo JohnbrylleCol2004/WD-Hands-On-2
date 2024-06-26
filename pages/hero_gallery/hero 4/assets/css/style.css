@@ -5,80 +5,195 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-}header.nav{
+    background-color: darkslategrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header.nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
-    padding: 20px 0;
-    & img{
-        width: 100px;
-        transition: 3s;
-        &:hover{
-            transform: rotateY(720deg);
-        }
-    }
+    margin-left: 8rem;
+    width: 80%;
+    padding: 40px 0;
     & a{
         text-decoration: none;
-        color: white;
-        font-size: 1.2rem;
+        color: black;
+        font-size: 1.2em;
         margin: 0 10px;
         font-weight: 1000;
-        text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
-        transition: 0.5s;
-        border: 50% ;
+        background-color: blue;
+        padding: 10px 20px;
+        border-radius: 50px;
+        transition: 1.5s;
         &:hover{
-            color: red;
-            text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+            color: white;
+            background-color: yellow;
+            transform: scale(1.2);
         }
         &.active{
-            color: red;
-            text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+            color: white;
+            background-color: yellow;
         }
     }
 }
 section.hero{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1.5rem;
-    & div.champion{
-        color: white;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        padding: 1rem;
-        margin: 1rem;
-        & h2{
-            font-size: 2rem;
-            font-weight: 1000;
+    color: linen;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+        & h1{
+            font-size: 3rem;
+            font-weight: 900;
             text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
         }
-    }
-    & div.hero-two{
-        color: white;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        padding: 1rem;
-        margin: 1rem;
-        & h2{
-            font-size: 2rem;
-            font-weight: 1000;
+        & p{
+            font-size: 1.5rem;
+            font-weight: 500;
             text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
         }
-        & img.kaido{
-            height: 15rem;
-            &:hover{
-                transition: 3.4s ease-in-out;
-                transform: scale(2);
-        }
-    }
-}
+        & div.champions{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            }
+            & div.champion{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                & img{
+                    width: 10rem;
+                    height: 10rem;
+                    margin: 0 10px;
+                    transition: 1s;
+                    background-color: rgba(0,0,0,0.6);
+                    border-radius: 50%;
+                    &:hover{
+                        transform: scale(1.5);
+                    }
+                }
+                & h2{
+                    font-size: 2rem;
+                    font-weight: 900;
+                    text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+                }
+             }
+            & div.champion-2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                & img{
+                    width: 10rem;
+                    height: 10rem;
+                    margin: 0 10px;
+                    transition: 1s;
+                    background-color: rgba(0,0,0,0.6);
+                    border-radius: 50%;
+                    &:hover{
+                        transform: scale(1.5);
+                    }
+                }
+                & h2{
+                    font-size: 2rem;
+                    font-weight: 900;
+                    text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+                }
+             }
+             & div.champion-3{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                & img{
+                    width: 10rem;
+                    height: 10rem;
+                    margin: 0 10px;
+                    transition: 1s;
+                    background-color: rgba(0,0,0,0.6);
+                    border-radius: 50%;
+                    &:hover{
+                        transform: scale(1.5);
+                    }
+                }
+                & h2{
+                    font-size: 2rem;
+                    font-weight: 900;
+                    text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+                }
+            }
+            & div.champion-4{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                & img{
+                    width: 10rem;
+                    height: 10rem;
+                    margin: 0 10px;
+                    transition: 1s;
+                    background-color: rgba(0,0,0,0.6);
+                    border-radius: 50%;
+                    &:hover{
+                        transform: scale(1.5);
+                    }
+                }
+                & h2{
+                    font-size: 2rem;
+                    font-weight: 900;
+                    text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+                }
+            }
+            & div.champion-5{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+                & img{
+                    width: 10rem;
+                    height: 10rem;
+                    margin: 0 10px;
+                    transition: 1s;
+                    background-color: rgba(0,0,0,0.6);
+                    border-radius: 50%;
+                    &:hover{
+                        transform: scale(1.5);
+                    }
+                }
+                & h2{
+                    font-size: 2rem;
+                    font-weight: 900;
+                    text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+                }
+            }
+         & div.button-content{
+            margin-top: 10px;
+            & nav.button{
+                background-color: yellow;
+                padding: 10px 60px;
+                transition: 1.5s;
+                &:hover{
+                    border-radius: 60px;
+                    cursor: pointer;
+                }
+                & a{
+                    text-decoration: none;
+                    cursor: pointer;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+         }
 }

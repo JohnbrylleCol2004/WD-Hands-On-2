@@ -36,11 +36,11 @@ header.navigation{
         transition: 0.5s;
         border: 50% ;
         &:hover{
-            color: red;
+            color: orange;
             text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
         }
         &.active{
-            color: red;
+            color: orange;
             text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
         }
     }

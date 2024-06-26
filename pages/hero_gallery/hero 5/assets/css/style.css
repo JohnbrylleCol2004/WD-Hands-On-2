@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/kaiju');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+header.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -4rem;
+    width: 80%;
+    padding: 20px 0;
+    & a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        margin: 0 10px;
+        font-weight: 10;
+        border-radius: 20px;
+        transition: 1.5s;
+        &:hover{
+            color: white;
+            background-color: blue;
+            transform: scale(1.2);
+        }
+        &.active{
+            color: white;
+            background-color: blue;
+        }
+    }
+}
+section.hero{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    & div.hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1rem;}
+    & h1{
+        font-family: 'Kaiju',sans-serif;
+        background: linear-gradient(to right, #ff0000, #0000ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 10rem;
+        margin-bottom: 1rem;
+        align-items: center;
+        margin-left: .2rem;
+    }
+    & p{
+        color: #f1f1f1;
+        font-size: 1.5rem;
+        font-weight: 1000;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    & a{
+        color: #f1f1f1;
+        text-decoration: none;
+        font-size: 1.5rem;
+        align-items: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        background-color: lightblue;
+        padding: 20px 50px;
+        transition: all .3s ease-in-out;
+         &:hover{
+            background-color: blue;
+            color: white;
+    }
+}
+}
+
+
+
