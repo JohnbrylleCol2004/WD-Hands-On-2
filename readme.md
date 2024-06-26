@@ -56,13 +56,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-The project is a multi-page HTML project that uses HTML and CSS to highlight various hero parts and card styles.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The project is a multi-page project that uses ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) and ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) to highlight various hero parts and card styles.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
